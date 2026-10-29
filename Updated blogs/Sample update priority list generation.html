@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Blog Update Priority Queue — 2026-06-25</title>
+<style>
+  body { font-family: Calibri, Arial, sans-serif; font-size: 11pt; margin: 40px; color: #1a1a1a; max-width: 1100px; }
+  h1 { font-size: 20pt; margin-bottom: 6px; }
+  h2 { font-size: 14pt; border-bottom: 2px solid #1a1a1a; padding-bottom: 4px; margin-top: 32px; }
+  h3 { font-size: 12pt; margin-top: 20px; }
+  .meta { color: #555; font-size: 10pt; margin-bottom: 28px; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 28px; font-size: 10pt; }
+  th { background: #1a1a1a; color: #fff; padding: 8px 10px; text-align: left; }
+  td { padding: 7px 10px; border-bottom: 1px solid #e0e0e0; vertical-align: top; }
+  tr:nth-child(even) td { background: #f7f7f7; }
+  .critical { color: #c0392b; font-weight: bold; }
+  .high { color: #d35400; font-weight: bold; }
+  .medium { color: #2471a3; }
+  .low { color: #7f8c8d; }
+  .badge-critical { background: #fdecea; color: #c0392b; font-weight: bold; padding: 2px 8px; border-radius: 3px; white-space: nowrap; }
+  .badge-high { background: #fef5ec; color: #d35400; font-weight: bold; padding: 2px 8px; border-radius: 3px; white-space: nowrap; }
+  .badge-medium { background: #eaf4fb; color: #2471a3; padding: 2px 8px; border-radius: 3px; white-space: nowrap; }
+  .badge-low { background: #f2f3f4; color: #7f8c8d; padding: 2px 8px; border-radius: 3px; white-space: nowrap; }
+  .summary-box { background: #f9f9f9; border-left: 4px solid #1a1a1a; padding: 16px 20px; margin: 20px 0; }
+  .issue-tag { display: inline-block; background: #f0f0f0; border-radius: 3px; padding: 1px 6px; margin: 1px; font-size: 9pt; color: #333; }
+  ul { padding-left: 20px; margin: 6px 0; }
+  li { margin-bottom: 3px; }
+  a { color: #2471a3; }
+</style>
+</head>
+<body>
+
+<h1>Blog Update Priority Queue</h1>
+<p class="meta">
+  <strong>Generated:</strong> 2026-06-25 &nbsp;|&nbsp;
+  <strong>Posts audited:</strong> 13 &nbsp;|&nbsp;
+  <strong>CRITICAL:</strong> <span class="critical">3</span> &nbsp;|&nbsp;
+  <strong>HIGH:</strong> <span class="high">6</span> &nbsp;|&nbsp;
+  <strong>MEDIUM:</strong> 2 &nbsp;|&nbsp;
+  <strong>LOW:</strong> 2
+</p>
+
+<div class="summary-box">
+  <strong>Cross-batch issues found in multiple posts:</strong>
+  <ul>
+    <li><strong>Wrong brand user count (5 posts):</strong> "over a million users" — correct verified stat is <strong>6.4M+ users</strong> (brand context file, Section 12)</li>
+    <li><strong>Wrong brand name (3 posts):</strong> "Predis AI" without the dot — must be "Predis.ai" (formal) or "Predis" (conversational)</li>
+    <li><strong>Filler openings (4 posts):</strong> "In today's fast-paced world", "today's crowded market", "in today's digital world" — all banned per brand voice rules</li>
+    <li><strong>Outdated year in title (1 post):</strong> "2025" in H1 title — now actively hurts click-through from SERP</li>
+    <li><strong>Process-first openers (6 posts):</strong> Intros describe the industry or the topic rather than leading with a reader outcome</li>
+  </ul>
+</div>
+
+<h2>Priority Rankings — All 13 Posts</h2>
+
+<table>
+  <tr>
+    <th>#</th>
+    <th>Post Title</th>
+    <th>URL</th>
+    <th>Last Updated</th>
+    <th>Score</th>
+    <th>Urgency</th>
+    <th>Staleness (0-3)</th>
+    <th>SEO Gaps (0-3)</th>
+    <th>Structure (0-2)</th>
+    <th>Voice (0-2)</th>
+    <th>Top Issues</th>
+  </tr>
+
+  <tr>
+    <td>1</td>
+    <td>A Guide to A/B Testing Your Display Banner Ads</td>
+    <td><a href="https://predis.ai/resources/guide-to-ab-testing-display-banner-ads/">guide-to-ab-testing...</a></td>
+    <td>Jan 14, 2025<br>(17 months)</td>
+    <td><strong>8</strong></td>
+    <td><span class="badge-critical">CRITICAL</span></td>
+    <td>3 — 17 months old; 2024/2025 year refs throughout</td>
+    <td>3 — Filler opener as first sentence; generic title ("A Guide to..."); meta missing</td>
+    <td>0</td>
+    <td>2 — First sentence IS the banned filler phrase "In today's fast-paced digital advertising world"; passive constructions throughout</td>
+    <td>
+      <span class="issue-tag">FILLER opener</span>
+      <span class="issue-tag">Outdated 17mo</span>
+      <span class="issue-tag">Weak title</span>
+      <span class="issue-tag">ROI stat unverified</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td>2</td>
+    <td>The Ultimate Guide to Using Tools for Product Advertisement</td>
+    <td><a href="https://predis.ai/resources/the-ultimate-guide-and-tools-to-using-tools-for-product-advertiement/">ultimate-guide-product-advert...</a></td>
+    <td>Jan 1, 2025<br>(18 months)</td>
+    <td><strong>8</strong></td>
+    <td><span class="badge-critical">CRITICAL</span></td>
+    <td>3 — 18 months old; all stats and strategies framed as "2025"</td>
+    <td>3 — Title says "tools" twice; URL has typo ("advertiement"); filler opener; meta missing</td>
+    <td>0</td>
+    <td>2 — "today's crowded market" filler; "over a million users" wrong brand stat; process-first structure</td>
+    <td>
+      <span class="issue-tag">FILLER opener</span>
+      <span class="issue-tag">Outdated 18mo</span>
+      <span class="issue-tag">URL typo</span>
+      <span class="issue-tag">Wrong brand stat</span>
+      <span class="issue-tag">Title redundancy</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td>3</td>
+    <td>A Guide On Top 20 Bank Ad Examples</td>
+    <td><a href="https://predis.ai/resources/bank-ad-examples/">bank-ad-examples</a></td>
+    <td>Jun 3, 2025<br>(12 months)</td>
+    <td><strong>8</strong></td>
+    <td><span class="badge-critical">CRITICAL</span></td>
+    <td>3 — Examples dated 2019, 2020, 2021, 2022, 2023 throughout body</td>
+    <td>2 — Generic title "A Guide On..."; meta missing; no primary keyword near front</td>
+    <td>1 — Only 4 H2 headings (thin); related posts present; CTA present</td>
+    <td>2 — Generic opener; "over a million users" wrong brand stat; "Gone are the days" cliche</td>
+    <td>
+      <span class="issue-tag">Historical ads 2019-2023</span>
+      <span class="issue-tag">Thin structure (4 H2s)</span>
+      <span class="issue-tag">Wrong brand stat</span>
+      <span class="issue-tag">Weak title</span>
+      <span class="issue-tag">Cliche opener</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td>4</td>
+    <td>Best AI Ad Generators To Make Viral Ads in 2025</td>
+    <td><a href="https://predis.ai/resources/best-ai-ad-generators/">best-ai-ad-generators</a></td>
+    <td>Aug 7, 2025<br>(10 months)</td>
+    <td><strong>7</strong></td>
+    <td><span class="badge-high">HIGH</span></td>
+    <td>3 — "2025" in the H1 title; all "best for 2025" framing now actively outdated on SERP</td>
+    <td>2 — Title year is stale; filler intro sentence; "Predis AI" brand name wrong; meta missing</td>
+    <td>0</td>
+    <td>2 — Filler opener ("The digital advertising landscape is evolving rapidly"); "Predis AI" brand name violation; wrong brand stat "over a million"</td>
+    <td>
+      <span class="issue-tag">2025 in title</span>
+      <span class="issue-tag">FILLER opener</span>
+      <span class="issue-tag">Wrong brand name</span>
+      <span class="issue-tag">Wrong brand stat</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td>5</td>
+    <td>Types Of Real Estate Ad Examples for Social Media</td>
+    <td><a href="https://predis.ai/resources/real-estate-ad-examples/">real-estate-ad-examples</a></td>
+    <td>May 29, 2025<br>(13 months)</td>
+    <td><strong>6</strong></td>
+    <td><span class="badge-high">HIGH</span></td>
+    <td>2 — 13 months old; 2025 references throughout; stats may be superseded</td>
+    <td>2 — Title capitalization ("Types Of"); generic process-first intro; meta missing</td>
+    <td>0</td>
+    <td>2 — "dramatic transformation over the last decade" — process/history-first; "over a million users" wrong brand stat; passive tone in sections</td>
+    <td>
+      <span class="issue-tag">Outdated 13mo</span>
+      <span class="issue-tag">Title capitalisation</span>
+      <span class="issue-tag">History-first intro</span>
+      <span class="issue-tag">Wrong brand stat</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td>6</td>
+    <td>Top AI Tools to Create UGC Product Videos &amp; Avatars</td>
+    <td><a href="https://predis.ai/resources/ai-tools-to-create-ugc-product-videos-avatars/">ai-tools-to-create-ugc...</a></td>
+    <td>Sep 18, 2025<br>(9 months)</td>
+    <td><strong>6</strong></td>
+    <td><span class="badge-high">HIGH</span></td>
+    <td>2 — 9 months old; "in today's digital world" filler; 2025 framing</td>
+    <td>2 — Intro not outcome-first; meta missing; "over a million users" wrong stat</td>
+    <td>0</td>
+    <td>2 — "in today's digital world" filler opener; "over a million users" wrong brand stat; passive-adjacent structure</td>
+    <td>
+      <span class="issue-tag">FILLER opener</span>
+      <span class="issue-tag">Wrong brand stat</span>
+      <span class="issue-tag">Process-first intro</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td>7</td>
+    <td>How to make TikTok-style AI UGC ads without creators?</td>
+    <td><a href="https://predis.ai/resources/make-ugc-ads-with-ai/">make-ugc-ads-with-ai</a></td>
+    <td>Sep 22, 2025<br>(9 months)</td>
+    <td><strong>5</strong></td>
+    <td><span class="badge-high">HIGH</span></td>
+    <td>2 — 9 months old; 2025 references; 79% UGC stat source not cited</td>
+    <td>2 — Title starts lowercase; no year in title; meta missing; stat without attribution</td>
+    <td>0</td>
+    <td>1 — Relatively clean voice; not strongly outcome-first but acceptable</td>
+    <td>
+      <span class="issue-tag">Title lowercase</span>
+      <span class="issue-tag">Uncited stat (79%)</span>
+      <span class="issue-tag">Outdated 9mo</span>
+      <span class="issue-tag">Meta missing</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td>8</td>
+    <td>How To Create A Facebook Video Ad?</td>
+    <td><a href="https://predis.ai/resources/how-to-create-a-facebook-video-ad/">how-to-create-a-facebook-video-ad</a></td>
+    <td>Jun 6, 2025<br>(12 months)</td>
+    <td><strong>5</strong></td>
+    <td><span class="badge-high">HIGH</span></td>
+    <td>2 — 12 months old; H2 says "in 2025"; stats need verification for 2026</td>
+    <td>2 — "Why Create a Facebook Video Ad in 2025?" H2 is outdated; meta missing; "over a million users" wrong stat</td>
+    <td>0</td>
+    <td>1 — Intro is fairly strong and outcome-adjacent; "over a million users" brand stat wrong</td>
+    <td>
+      <span class="issue-tag">2025 H2</span>
+      <span class="issue-tag">Stats need 2026 refresh</span>
+      <span class="issue-tag">Wrong brand stat</span>
+      <span class="issue-tag">Meta missing</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td>9</td>
+    <td>7 AI Ad Creative Generators To Make Scroll-stopping Ads!</td>
+    <td><a href="https://predis.ai/resources/top-ai-ad-creative-generators/">top-ai-ad-creative-generators</a></td>
+    <td>Aug 28, 2025<br>(10 months)</td>
+    <td><strong>5</strong></td>
+    <td><span class="badge-high">HIGH</span></td>
+    <td>2 — 10 months old; "over a million users" wrong brand stat; pricing may be outdated</td>
+    <td>2 — Intro not outcome-first; meta missing; exclamation point in title lowers credibility</td>
+    <td>0</td>
+    <td>1 — Conversational but not outcome-first; "Predis AI" brand name wrong in H2</td>
+    <td>
+      <span class="issue-tag">Wrong brand name (H2)</span>
+      <span class="issue-tag">Wrong brand stat</span>
+      <span class="issue-tag">Title exclamation</span>
+      <span class="issue-tag">Pricing to verify</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td>10</td>
+    <td>Best AI Tools to Make UGC Ads for Social Media</td>
+    <td><a href="https://predis.ai/resources/top-ai-tools-for-ugc-ads/">top-ai-tools-for-ugc-ads</a></td>
+    <td>Sep 2, 2025<br>(10 months)</td>
+    <td><strong>4</strong></td>
+    <td><span class="badge-medium">MEDIUM</span></td>
+    <td>2 — 10 months old; Predis pricing shown as "$23/mo" (brand context shows $19/mo Core)</td>
+    <td>1 — Title is reasonable; meta missing</td>
+    <td>0</td>
+    <td>1 — Nostalgic opener ("Remember the good old days") — not outcome-first but not a banned phrase</td>
+    <td>
+      <span class="issue-tag">Wrong Predis pricing ($23 vs $19)</span>
+      <span class="issue-tag">Outdated 10mo</span>
+      <span class="issue-tag">Meta missing</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td>11</td>
+    <td>15 Inspiring Instagram Ad Examples to Boost Your Campaigns</td>
+    <td><a href="https://predis.ai/resources/best-instagram-ad-examples/">best-instagram-ad-examples</a></td>
+    <td>Jun 20, 2026<br>(5 days)</td>
+    <td><strong>3</strong></td>
+    <td><span class="badge-medium">MEDIUM</span></td>
+    <td>0 — Very recently updated; 2026 references current</td>
+    <td>1 — Meta description not visible; otherwise well-structured</td>
+    <td>0</td>
+    <td>2 — "Instagram has evolved from a photo-sharing app" — generic opener; "1 million+ users" wrong brand stat (should be 6.4M+)</td>
+    <td>
+      <span class="issue-tag">Wrong brand stat</span>
+      <span class="issue-tag">Generic opener</span>
+      <span class="issue-tag">Meta missing</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td>12</td>
+    <td>12 Best AdCreative.ai Alternatives (Pricing, Pros &amp; Cons)</td>
+    <td><a href="https://predis.ai/resources/adcreative-ai-alternatives/">adcreative-ai-alternatives</a></td>
+    <td>Jun 16, 2026<br>(9 days)</td>
+    <td><strong>2</strong></td>
+    <td><span class="badge-low">LOW</span></td>
+    <td>0 — Very recently updated; 2026 content throughout</td>
+    <td>1 — Meta description not visible; otherwise well-optimised</td>
+    <td>0</td>
+    <td>1 — Em dash in first sentence ("acquisition — going from $249"); otherwise strong voice</td>
+    <td>
+      <span class="issue-tag">Em dash in intro</span>
+      <span class="issue-tag">Meta missing</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td>13</td>
+    <td>13 Facebook Ad Types in 2026: Formats, Specs &amp; More</td>
+    <td><a href="https://predis.ai/resources/facebook-ad-types/">facebook-ad-types</a></td>
+    <td>Jun 16, 2026<br>(9 days)</td>
+    <td><strong>2</strong></td>
+    <td><span class="badge-low">LOW</span></td>
+    <td>0 — Very recently updated; strong current stats throughout</td>
+    <td>1 — Meta description not visible; otherwise strong SEO structure</td>
+    <td>0</td>
+    <td>1 — Em dash in first sentence ("$0.58 — compared to $2.69"); otherwise excellent voice</td>
+    <td>
+      <span class="issue-tag">Em dash in intro</span>
+      <span class="issue-tag">Meta missing</span>
+    </td>
+  </tr>
+
+</table>
+
+<h2>Recommended Action Plan</h2>
+
+<h3><span class="critical">CRITICAL — Update immediately (3 posts)</span></h3>
+<ol>
+  <li><strong>guide-to-ab-testing-display-banner-ads</strong> — First sentence is a banned filler phrase; 17 months old; weak title. Score: 8</li>
+  <li><strong>ultimate-guide-product-advertisement</strong> — 18 months old; URL has a typo; title redundancy; filler opener; wrong brand stat. Score: 8</li>
+  <li><strong>bank-ad-examples</strong> — Thin structure (4 H2s only); ad examples dated 2019–2023; cliche opener; weak title. Score: 8</li>
+</ol>
+
+<h3><span class="high">HIGH — Schedule within 2 weeks (6 posts)</span></h3>
+<ol>
+  <li><strong>best-ai-ad-generators</strong> — "2025" in H1 title hurts SERP CTR now; filler opener; wrong brand name and stat. Score: 7</li>
+  <li><strong>real-estate-ad-examples</strong> — 13 months old; history-first intro; wrong brand stat. Score: 6</li>
+  <li><strong>ai-tools-to-create-ugc-product-videos-avatars</strong> — Filler opener; wrong brand stat; 9 months old. Score: 6</li>
+  <li><strong>make-ugc-ads-with-ai</strong> — Lowercase title; uncited 79% stat; 9 months old. Score: 5</li>
+  <li><strong>how-to-create-a-facebook-video-ad</strong> — 12 months old; "2025" H2; wrong brand stat. Score: 5</li>
+  <li><strong>top-ai-ad-creative-generators</strong> — Wrong brand name in H2; exclamation in title; pricing to verify. Score: 5</li>
+</ol>
+
+<h3>MEDIUM — Next content cycle (2 posts)</h3>
+<ol>
+  <li><strong>top-ai-tools-for-ugc-ads</strong> — Incorrect Predis pricing ($23 vs $19); meta missing. Score: 4</li>
+  <li><strong>best-instagram-ad-examples</strong> — Very recent but wrong brand stat; generic opener. Score: 3</li>
+</ol>
+
+<h3>LOW — Monitor only (2 posts)</h3>
+<ol>
+  <li><strong>adcreative-ai-alternatives</strong> — Em dash in intro only; otherwise strong. Score: 2</li>
+  <li><strong>facebook-ad-types</strong> — Em dash in intro only; otherwise excellent. Score: 2</li>
+</ol>
+
+<h2>Notes</h2>
+<ul>
+  <li>No posts returned FETCH FAILED — all 13 URLs resolved successfully.</li>
+  <li>No meta descriptions were retrievable via WebFetch — recommend checking all 13 in Google Search Console or Yoast/RankMath to confirm they exist. All 13 are flagged for meta description review.</li>
+  <li>The two LOW posts (adcreative-ai-alternatives, facebook-ad-types) have em dashes in their opening sentences — a quick edit rather than a full rewrite is sufficient.</li>
+</ul>
+
+</body>
+</html>

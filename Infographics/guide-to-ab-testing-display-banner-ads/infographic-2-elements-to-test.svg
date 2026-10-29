@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1060" viewBox="0 0 900 1060">
+<defs>
+<radialGradient id="bgGrad" cx="50%" cy="25%" r="75%">
+  <stop offset="0%"   stop-color="#0E1535"/>
+  <stop offset="100%" stop-color="#0B0B1C"/>
+</radialGradient>
+<linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%"   stop-color="#141B38"/>
+  <stop offset="100%" stop-color="#0D1228"/>
+</linearGradient>
+<linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#00E5A0"/>
+  <stop offset="100%" stop-color="#00B4D8"/>
+</linearGradient>
+<linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#FFFFFF"/>
+  <stop offset="55%"  stop-color="#90CAF9"/>
+  <stop offset="100%" stop-color="#00E5A0"/>
+</linearGradient>
+<filter id="cardShadow" x="-8%" y="-8%" width="116%" height="130%">
+  <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#000000" flood-opacity="0.45"/>
+</filter>
+<filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+  <feGaussianBlur stdDeviation="6" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="iconGlow" x="-40%" y="-40%" width="180%" height="180%">
+  <feGaussianBlur stdDeviation="5" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<rect width="900" height="1060" fill="url(#bgGrad)"/>
+<circle cx="45" cy="45" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="117" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="189" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="261" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="333" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="405" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="477" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="549" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="621" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="693" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="765" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="837" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="909" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="981" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="45" cy="1053" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="45" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="117" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="189" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="261" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="333" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="405" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="477" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="549" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="621" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="693" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="765" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="837" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="909" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="981" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="117" cy="1053" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="45" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="117" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="189" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="261" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="333" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="405" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="477" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="549" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="621" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="693" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="765" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="837" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="909" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="981" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="189" cy="1053" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="45" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="117" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="189" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="261" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="333" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="405" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="477" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="549" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="621" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="693" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="765" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="837" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="909" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="981" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="261" cy="1053" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="45" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="117" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="189" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="261" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="333" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="405" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="477" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="549" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="621" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="693" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="765" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="837" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="909" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="981" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="333" cy="1053" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="45" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="117" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="189" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="261" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="333" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="405" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="477" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="549" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="621" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="693" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="765" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="837" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="909" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="981" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="405" cy="1053" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="45" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="117" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="189" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="261" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="333" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="405" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="477" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="549" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="621" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="693" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="765" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="837" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="909" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="981" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="477" cy="1053" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="45" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="117" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="189" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="261" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="333" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="405" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="477" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="549" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="621" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="693" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="765" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="837" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="909" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="981" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="549" cy="1053" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="45" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="117" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="189" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="261" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="333" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="405" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="477" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="549" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="621" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="693" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="765" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="837" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="909" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="981" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="621" cy="1053" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="45" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="117" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="189" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="261" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="333" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="405" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="477" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="549" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="621" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="693" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="765" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="837" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="909" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="981" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="693" cy="1053" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="45" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="117" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="189" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="261" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="333" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="405" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="477" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="549" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="621" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="693" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="765" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="837" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="909" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="981" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="765" cy="1053" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="45" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="117" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="189" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="261" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="333" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="405" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="477" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="549" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="621" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="693" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="765" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="837" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="909" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="981" r="1" fill="#1A2450" opacity="0.55"/>
+<circle cx="837" cy="1053" r="1" fill="#1A2450" opacity="0.55"/>
+<ellipse cx="450" cy="70" rx="340" ry="55" fill="#0D47A1" opacity="0.16"/>
+<rect x="375" y="26" width="150" height="28" rx="14" fill="#1A237E" opacity="0.8"/>
+<text x="450" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="url(#accentGrad)" letter-spacing="2">PREDIS.AI</text>
+<text x="450" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="900" fill="url(#titleGrad)" filter="url(#softGlow)">Banner Ad Elements to A/B Test</text>
+<text x="450" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#B0BEC5">Test one element at a time for clean, actionable results</text>
+<rect x="340" y="142" width="220" height="3" rx="2" fill="url(#accentGrad)"/>
+<rect x="46" y="170" width="390" height="180" rx="16" fill="url(#cardGrad)" filter="url(#cardShadow)" stroke="#1E2A5E" stroke-width="1"/>
+<rect x="62" y="170" width="358" height="4" rx="2" fill="#00E5A0" opacity="0.85"/>
+<circle cx="92" cy="230" r="30" fill="#0B0B1C" stroke="#00E5A0" stroke-width="2" filter="url(#iconGlow)"/>
+<circle cx="92" cy="230" r="22" fill="#00E5A0" opacity="0.15"/>
+<text x="92" y="236" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="900" fill="#00E5A0" filter="url(#iconGlow)">H</text>
+<text x="136" y="214" font-family="Arial,sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">Headlines</text>
+<text x="136" y="236" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">Test power words, question</text>
+<text x="136" y="256" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">vs. statement formats,</text>
+<text x="136" y="276" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">and benefit-led copy</text>
+<circle cx="418" cy="188" r="5" fill="#00E5A0" opacity="0.4"/>
+<circle cx="404" cy="188" r="3" fill="#00E5A0" opacity="0.25"/>
+<rect x="396" y="314" width="28" height="24" rx="8" fill="#00E5A0" opacity="0.18"/>
+<text x="410" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#00E5A0">01</text>
+<rect x="464" y="170" width="390" height="180" rx="16" fill="url(#cardGrad)" filter="url(#cardShadow)" stroke="#1E2A5E" stroke-width="1"/>
+<rect x="480" y="170" width="358" height="4" rx="2" fill="#4FC3F7" opacity="0.85"/>
+<circle cx="510" cy="230" r="30" fill="#0B0B1C" stroke="#4FC3F7" stroke-width="2" filter="url(#iconGlow)"/>
+<circle cx="510" cy="230" r="22" fill="#4FC3F7" opacity="0.15"/>
+<text x="510" y="236" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="900" fill="#4FC3F7" filter="url(#iconGlow)">I</text>
+<text x="554" y="214" font-family="Arial,sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">Images</text>
+<text x="554" y="236" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">Product-focused vs.</text>
+<text x="554" y="256" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">lifestyle imagery; static</text>
+<text x="554" y="276" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">vs. animated visuals</text>
+<circle cx="836" cy="188" r="5" fill="#4FC3F7" opacity="0.4"/>
+<circle cx="822" cy="188" r="3" fill="#4FC3F7" opacity="0.25"/>
+<rect x="814" y="314" width="28" height="24" rx="8" fill="#4FC3F7" opacity="0.18"/>
+<text x="828" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4FC3F7">02</text>
+<rect x="46" y="370" width="390" height="180" rx="16" fill="url(#cardGrad)" filter="url(#cardShadow)" stroke="#1E2A5E" stroke-width="1"/>
+<rect x="62" y="370" width="358" height="4" rx="2" fill="#CE93D8" opacity="0.85"/>
+<circle cx="92" cy="430" r="30" fill="#0B0B1C" stroke="#CE93D8" stroke-width="2" filter="url(#iconGlow)"/>
+<circle cx="92" cy="430" r="22" fill="#CE93D8" opacity="0.15"/>
+<text x="92" y="436" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="900" fill="#CE93D8" filter="url(#iconGlow)">C</text>
+<text x="136" y="414" font-family="Arial,sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">Colors</text>
+<text x="136" y="436" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">CTA button color,</text>
+<text x="136" y="456" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">background tone, and</text>
+<text x="136" y="476" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">brand palette variations</text>
+<circle cx="418" cy="388" r="5" fill="#CE93D8" opacity="0.4"/>
+<circle cx="404" cy="388" r="3" fill="#CE93D8" opacity="0.25"/>
+<rect x="396" y="514" width="28" height="24" rx="8" fill="#CE93D8" opacity="0.18"/>
+<text x="410" y="530" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#CE93D8">03</text>
+<rect x="464" y="370" width="390" height="180" rx="16" fill="url(#cardGrad)" filter="url(#cardShadow)" stroke="#1E2A5E" stroke-width="1"/>
+<rect x="480" y="370" width="358" height="4" rx="2" fill="#FFB74D" opacity="0.85"/>
+<circle cx="510" cy="430" r="30" fill="#0B0B1C" stroke="#FFB74D" stroke-width="2" filter="url(#iconGlow)"/>
+<circle cx="510" cy="430" r="22" fill="#FFB74D" opacity="0.15"/>
+<text x="510" y="436" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="900" fill="#FFB74D" filter="url(#iconGlow)">CTA</text>
+<text x="554" y="414" font-family="Arial,sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">CTAs</text>
+<text x="554" y="436" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">Button text, shape, size,</text>
+<text x="554" y="456" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">and placement all</text>
+<text x="554" y="476" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">drive click-through rate</text>
+<circle cx="836" cy="388" r="5" fill="#FFB74D" opacity="0.4"/>
+<circle cx="822" cy="388" r="3" fill="#FFB74D" opacity="0.25"/>
+<rect x="814" y="514" width="28" height="24" rx="8" fill="#FFB74D" opacity="0.18"/>
+<text x="828" y="530" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#FFB74D">04</text>
+<rect x="46" y="570" width="390" height="180" rx="16" fill="url(#cardGrad)" filter="url(#cardShadow)" stroke="#1E2A5E" stroke-width="1"/>
+<rect x="62" y="570" width="358" height="4" rx="2" fill="#F48FB1" opacity="0.85"/>
+<circle cx="92" cy="630" r="30" fill="#0B0B1C" stroke="#F48FB1" stroke-width="2" filter="url(#iconGlow)"/>
+<circle cx="92" cy="630" r="22" fill="#F48FB1" opacity="0.15"/>
+<text x="92" y="636" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="900" fill="#F48FB1" filter="url(#iconGlow)">P</text>
+<text x="136" y="614" font-family="Arial,sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">Ad Copy</text>
+<text x="136" y="636" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">Short punchy copy vs.</text>
+<text x="136" y="656" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">long descriptive text;</text>
+<text x="136" y="676" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">emoji vs. plain text</text>
+<circle cx="418" cy="588" r="5" fill="#F48FB1" opacity="0.4"/>
+<circle cx="404" cy="588" r="3" fill="#F48FB1" opacity="0.25"/>
+<rect x="396" y="714" width="28" height="24" rx="8" fill="#F48FB1" opacity="0.18"/>
+<text x="410" y="730" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#F48FB1">05</text>
+<rect x="464" y="570" width="390" height="180" rx="16" fill="url(#cardGrad)" filter="url(#cardShadow)" stroke="#1E2A5E" stroke-width="1"/>
+<rect x="480" y="570" width="358" height="4" rx="2" fill="#4DB6AC" opacity="0.85"/>
+<circle cx="510" cy="630" r="30" fill="#0B0B1C" stroke="#4DB6AC" stroke-width="2" filter="url(#iconGlow)"/>
+<circle cx="510" cy="630" r="22" fill="#4DB6AC" opacity="0.15"/>
+<text x="510" y="636" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="900" fill="#4DB6AC" filter="url(#iconGlow)">#</text>
+<text x="554" y="614" font-family="Arial,sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">Layout + Design</text>
+<text x="554" y="636" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">Element hierarchy,</text>
+<text x="554" y="656" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">whitespace balance,</text>
+<text x="554" y="676" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">and visual focal point</text>
+<circle cx="836" cy="588" r="5" fill="#4DB6AC" opacity="0.4"/>
+<circle cx="822" cy="588" r="3" fill="#4DB6AC" opacity="0.25"/>
+<rect x="814" y="714" width="28" height="24" rx="8" fill="#4DB6AC" opacity="0.18"/>
+<text x="828" y="730" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4DB6AC">06</text>
+<rect x="46" y="770" width="390" height="180" rx="16" fill="url(#cardGrad)" filter="url(#cardShadow)" stroke="#1E2A5E" stroke-width="1"/>
+<rect x="62" y="770" width="358" height="4" rx="2" fill="#00B4D8" opacity="0.85"/>
+<circle cx="92" cy="830" r="30" fill="#0B0B1C" stroke="#00B4D8" stroke-width="2" filter="url(#iconGlow)"/>
+<circle cx="92" cy="830" r="22" fill="#00B4D8" opacity="0.15"/>
+<text x="92" y="836" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="900" fill="#00B4D8" filter="url(#iconGlow)">AU</text>
+<text x="136" y="814" font-family="Arial,sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">Audience Segment</text>
+<text x="136" y="836" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">Test the same creative</text>
+<text x="136" y="856" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">across different audience</text>
+<text x="136" y="876" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">segments simultaneously</text>
+<circle cx="418" cy="788" r="5" fill="#00B4D8" opacity="0.4"/>
+<circle cx="404" cy="788" r="3" fill="#00B4D8" opacity="0.25"/>
+<rect x="396" y="914" width="28" height="24" rx="8" fill="#00B4D8" opacity="0.18"/>
+<text x="410" y="930" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#00B4D8">07</text>
+<rect x="464" y="770" width="390" height="180" rx="16" fill="url(#cardGrad)" filter="url(#cardShadow)" stroke="#1E2A5E" stroke-width="1"/>
+<rect x="480" y="770" width="358" height="4" rx="2" fill="#00E5A0" opacity="0.85"/>
+<circle cx="510" cy="830" r="30" fill="#0B0B1C" stroke="#00E5A0" stroke-width="2" filter="url(#iconGlow)"/>
+<circle cx="510" cy="830" r="22" fill="#00E5A0" opacity="0.15"/>
+<text x="510" y="836" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="900" fill="#00E5A0" filter="url(#iconGlow)">PL</text>
+<text x="554" y="814" font-family="Arial,sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">Ad Placement</text>
+<text x="554" y="836" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">Above-the-fold vs.</text>
+<text x="554" y="856" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">sidebar vs. in-feed</text>
+<text x="554" y="876" font-family="Arial,sans-serif" font-size="12.5" fill="#B0BEC5">placement performance</text>
+<circle cx="836" cy="788" r="5" fill="#00E5A0" opacity="0.4"/>
+<circle cx="822" cy="788" r="3" fill="#00E5A0" opacity="0.25"/>
+<rect x="814" y="914" width="28" height="24" rx="8" fill="#00E5A0" opacity="0.18"/>
+<text x="828" y="930" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#00E5A0">08</text>
+<line x1="80" y1="1016" x2="820" y2="1016" stroke="#1E2A5E" stroke-width="1"/>
+<text x="80" y="1036" font-family="Arial,sans-serif" font-size="12" fill="#B0BEC5">predis.ai/resources</text>
+<text x="820" y="1036" text-anchor="end" font-family="Arial,sans-serif" font-size="12" fill="#B0BEC5">A/B Testing Display Banner Ads Guide</text>
+</svg>

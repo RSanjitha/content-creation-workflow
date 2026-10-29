@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Improvements Report — A/B Testing Display Banner Ads</title>
+<style>
+  body { font-family: Calibri, Arial, sans-serif; font-size: 11pt; margin: 40px; color: #1a1a1a; max-width: 900px; }
+  h1 { font-size: 18pt; }
+  h2 { font-size: 14pt; border-bottom: 2px solid #1a1a1a; padding-bottom: 4px; margin-top: 32px; }
+  h3 { font-size: 12pt; margin-top: 20px; color: #2c2c2c; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0 24px 0; }
+  th { background: #1a1a1a; color: #fff; padding: 8px 10px; text-align: left; font-size: 10pt; }
+  td { padding: 7px 10px; border-bottom: 1px solid #e0e0e0; font-size: 10pt; vertical-align: top; }
+  tr:nth-child(even) td { background: #f7f7f7; }
+  .score-box { background: #f0f0f0; padding: 16px 20px; border-left: 4px solid #1a1a1a; margin: 16px 0 24px 0; }
+  .critical { color: #c0392b; font-weight: bold; }
+  .high { color: #d35400; font-weight: bold; }
+  .medium { color: #2471a3; }
+  .low { color: #7f8c8d; }
+  ul { padding-left: 20px; margin: 8px 0 16px 0; }
+  li { margin-bottom: 5px; }
+  .pass { color: #1e8449; font-weight: bold; }
+  .fail { color: #c0392b; font-weight: bold; }
+  .partial { color: #d35400; font-weight: bold; }
+  code { background: #f4f4f4; padding: 1px 5px; font-family: monospace; font-size: 10pt; }
+</style>
+</head>
+<body>
+
+<h1>Improvements Report — A/B Testing Display Banner Ads</h1>
+<p style="color:#555; font-size:10pt;">
+  <strong>Audit date:</strong> 2026-06-25 &nbsp;|&nbsp;
+  <strong>Original URL:</strong> <a href="https://predis.ai/resources/guide-to-ab-testing-display-banner-ads/">predis.ai/resources/guide-to-ab-testing-display-banner-ads/</a><br>
+  <strong>Published:</strong> January 14, 2025 (17 months, no update date shown) &nbsp;|&nbsp;
+  <strong>Author:</strong> Tanmay Ratnaparkhe, Co-founder &nbsp;|&nbsp;
+  <strong>Audited by:</strong> Update-researcher
+</p>
+
+<div class="score-box">
+  <strong>CORE-EEAT Overall Score: 58 / 100</strong><br>
+  <strong>GEO Score (C+O+R+E):</strong> 62 &nbsp;|&nbsp; <strong>SEO Trust Score (Exp+Ept+A+T):</strong> 54<br>
+  <strong>Status:</strong> <span class="pass">PASS</span> — no veto items failed. Proceed to rewrite.
+</div>
+
+<h2><span class="critical">Critical Issues — fix before publishing</span></h2>
+<ul>
+  <li><span class="critical">[FACTUAL ERROR — TOOL DISCONTINUED]</span> FAQ recommends <strong>Google Optimize</strong> as an A/B testing tool. Google shut down Optimize on <strong>September 30, 2023</strong> — over 2.5 years ago. Any reader who follows this recommendation will find a dead product. Replace with current tools: Optimizely, VWO, AB Tasty, or Google Ads built-in Experiments.</li>
+  <li><span class="critical">[FACTUAL ERROR — WRONG COMPANY NAME]</span> Case Study 1 refers throughout to <strong>"Bannersnack"</strong>. Bannersnack rebranded to <strong>Creatopy</strong> in <strong>February 2021</strong> — over 4 years ago. The company no longer operates under this name. Update all references to "Creatopy (formerly Bannersnack)".</li>
+  <li><span class="critical">[FILLER OPENER — BRAND VOICE VIOLATION]</span> First sentence of the post is a banned filler phrase: <em>"In today's fast-paced digital advertising world, where every click matters..."</em> This violates the brand voice rule directly. Must be rewritten as an outcome-first opening.</li>
+</ul>
+
+<h2><span class="high">High-Priority Improvements</span></h2>
+<ul>
+  <li><strong>[AEO — MISSING DIRECT ANSWER BLOCK]</strong> The intro does not answer the core question ("what is A/B testing for display banner ads") in the first 40–60 words. A direct answer block is required for Google AI Overview and Perplexity eligibility. Add a bolded 2–3 sentence plain-language answer immediately after the H1.</li>
+  <li><strong>[SEO — NO QUICK ANSWER TABLE]</strong> No summary table near the top. For a guide-format post this length, a Quick Answer table (what to test, minimum duration, top tools, sample size rule) immediately after the intro dramatically improves featured snippet eligibility.</li>
+  <li><strong>[SEO/STRUCTURE — NO TABLE OF CONTENTS]</strong> The post exceeds 2,000 words with 8 H2 sections and 12+ H3s. A jump-to table of contents is required per CORE-EEAT O02.</li>
+  <li><strong>[STAT — UNVERIFIED ROI CLAIM]</strong> The intro claims A/B testing can "boost ROI by up to 30%" — no source is cited. This is the first number a reader sees. Either attribute it ("According to [source]...") or replace with the cited case study result (Creatopy: 25% CTR increase). Floating unsourced stats reduce Trust score.</li>
+  <li><strong>[VOICE — THIRD-PERSON SLIPPAGE]</strong> Multiple sections address "marketers" and "businesses" instead of "you/your": "Marketers are forced to make educated guesses", "Businesses may learn a lot about what works". Rewrite all third-person reader references to second-person throughout.</li>
+  <li><strong>[CONTENT GAP — NO PREDIS SECTION]</strong> No "How to do this with Predis" section. Every how-to and guide post must include a brand-integrated workflow section. Predis's ad creative generator lets users produce multiple display ad variants in one session — this is a direct fit for the A/B testing workflow.</li>
+  <li><strong>[SEO — TITLE WEAK]</strong> "A Guide to A/B Testing Your Display Banner Ads" starts with "A Guide to" — a weak, generic construction. Recommended updated title: "A/B Testing Display Banner Ads: A Complete Guide to Higher CTR" (52 chars, keyword-first, outcome in title).</li>
+  <li><strong>[AEO — FAQ ANSWERS TOO BRIEF]</strong> All 5 FAQ answers are one or two sentences. FAQ schema requires substantive answers (3–5 sentences minimum) to be eligible for Google FAQ results and AI engine citations. Every FAQ answer needs to be expanded with actionable detail.</li>
+</ul>
+
+<h2>Medium-Priority Improvements</h2>
+<ul>
+  <li><strong>[VOICE — EM DASH]</strong> One em dash found in body text: <em>"optimizations ─ adapting ads to the new normal"</em>. Replace with a comma or split the sentence.</li>
+  <li><strong>[VOICE — PASSIVE CONSTRUCTIONS]</strong> Multiple passive framings in the intro and body: "It is an effective method for marketers through which they determine", "A/B testing is also known as split testing", "Businesses may learn a lot about what works". Rewrite in active voice with second-person address.</li>
+  <li><strong>[FRESHNESS — NO LAST-UPDATED DATE]</strong> A 17-month-old post shows only its original publish date (January 14, 2025). Google uses last-updated dates as a freshness signal. Add a visible "Last updated: [date]" line after the rewrite.</li>
+  <li><strong>[CONCLUSION — WEAK ANCHOR TEXT]</strong> The conclusion uses "best ai ad generator free" as a hyperlink anchor — this reads as keyword stuffing and lowers trust. Replace with a natural CTA: "Try Predis for free" or "Create your first ad variant in Predis".</li>
+  <li><strong>[STRUCTURE — PRACTICAL APPLICATIONS SECTION]</strong> The "Practical Applications" section under "How A/B Testing Works" overlaps with the "Display Banner Ad Elements to Test" section. Merge or clearly differentiate to avoid redundancy.</li>
+</ul>
+
+<h2>Low-Priority Improvements</h2>
+<ul>
+  <li><strong>[SEO — META DESCRIPTION]</strong> No meta description was retrievable. Confirm it exists in Yoast/RankMath. If missing, recommended meta: "Learn how to A/B test display banner ads with a proven 8-step process. Find what drives clicks — headlines, CTAs, colors — and stop wasting budget on guesswork." (154 chars)</li>
+  <li><strong>[STRUCTURED DATA — MISSING]</strong> No FAQ schema or Article schema detected. Given the FAQ section and step-by-step how-to structure, add both FAQ schema and HowTo schema for maximum SERP feature eligibility.</li>
+  <li><strong>[LINK — INTERNAL ANCHOR TEXT]</strong> "Create stunning banners" link uses generic anchor text. "Display Ad Creatives" anchor is better. Consider linking the Predis display ad maker page with a more keyword-rich anchor: "display ad creative generator".</li>
+</ul>
+
+<h2>Brand Voice Violations</h2>
+<table>
+  <tr><th>Code</th><th>Quoted text</th><th>Recommended fix</th></tr>
+  <tr>
+    <td>FILLER</td>
+    <td>"In today's fast-paced digital advertising world, where every click matters"</td>
+    <td>Rewrite as outcome-first: lead with the reader's result (higher CTR, less wasted spend)</td>
+  </tr>
+  <tr>
+    <td>PASSIVE</td>
+    <td>"It is an effective method for marketers through which they determine the best version"</td>
+    <td>"A/B testing shows you which version of your ad drives more clicks — before you commit your full budget."</td>
+  </tr>
+  <tr>
+    <td>THIRD PERSON</td>
+    <td>"Marketers are forced to make educated guesses or follow industry trends"</td>
+    <td>"Without A/B testing, you're guessing — and guessing costs money."</td>
+  </tr>
+  <tr>
+    <td>THIRD PERSON</td>
+    <td>"Businesses may learn a lot about what works best with their audience"</td>
+    <td>"You learn exactly what your audience responds to — not what the industry says they should."</td>
+  </tr>
+  <tr>
+    <td>EM DASH</td>
+    <td>"optimizations ─ adapting ads to the new normal"</td>
+    <td>"optimizations, adapting your ads as platforms evolve."</td>
+  </tr>
+  <tr>
+    <td>PASSIVE</td>
+    <td>"A/B testing is also known as split testing. It is an effective method..."</td>
+    <td>Merge and rewrite: "A/B testing — also called split testing — lets you compare two ad versions against a real audience and find the winner."</td>
+  </tr>
+  <tr>
+    <td>PROCESS-FIRST</td>
+    <td>"This blog is a complete guide to A/B testing, how it works and why testing your banner ads is important."</td>
+    <td>Remove. Reader already clicked the post — do not describe the post to them. Open with the outcome instead.</td>
+  </tr>
+</table>
+
+<h2>CORE-EEAT Dimension Scores</h2>
+<table>
+  <tr><th>Dimension</th><th>Score / 100</th><th>Key failures and partials</th></tr>
+  <tr><td>Contextual Clarity (C)</td><td>70</td><td>Conclusion lacks clear next steps (C10: Fail); intro vague about what reader gains (C09: Partial); target audience unstated (C04: Partial)</td></tr>
+  <tr><td>Organization (O)</td><td>65</td><td>No table of contents (O02: Fail); no Quick Answer table (O06: Fail); mid-article CTA present but only in image banners (O07: Partial)</td></tr>
+  <tr><td>Referenceability (R)</td><td>75</td><td>30% ROI stat uncited (R02: Partial); no last-updated date (R08: Fail); otherwise well-referenced with case studies and named sources</td></tr>
+  <tr><td>Exclusivity (E)</td><td>39</td><td>No brand-specific Predis examples (E03: Fail); no explicit content gap stated (E05: Fail); brand voice absent (E07: Fail); generic-feeling advice in several sections (E01, E06: Partial)</td></tr>
+  <tr><td>Experience (Exp)</td><td>40</td><td>No screenshots or step visuals (Exp05: Fail); no Predis how-to section (Exp06: Fail); advice not segmented by audience type (Exp09: Fail); feels research-based rather than practitioner-led (Exp10: Partial)</td></tr>
+  <tr><td>Expertise (Ept)</td><td>50</td><td>Google Optimize recommended — discontinued Sep 2023 (Ept01, Ept03: Fail); FAQ answers too brief (Ept08: Fail); otherwise good use of industry terminology and case study data</td></tr>
+  <tr><td>Authority (A)</td><td>78</td><td>No update within 12 months shown (A05: Fail); 30% ROI stat uncited (A04: Partial); author is Co-founder, external links authoritative — strong baseline</td></tr>
+  <tr><td>Trust (T)</td><td>50</td><td>Google Optimize factual error (T01: Fail); em dash present (T06: Fail); filler opener (T09: Fail); third-person slippage (T08: Partial); weak conclusion anchor text (T05: Partial)</td></tr>
+</table>
+
+<h2>SEO + AEO Findings</h2>
+<ul>
+  <li><strong>Primary keyword ("A/B testing display banner ads"):</strong> Present in H1, body, and two H2s. Good coverage — no change needed on keyword distribution.</li>
+  <li><strong>Title:</strong> Starts with "A Guide to" — weak. Recommend: "A/B Testing Display Banner Ads: A Complete Guide to Higher CTR" (keyword-first, outcome in title).</li>
+  <li><strong>Meta description:</strong> Not confirmed present. If missing, add: "Learn how to A/B test display banner ads with a proven 8-step process. Find what drives clicks — headlines, CTAs, colors — and stop wasting budget on guesswork." (154 chars)</li>
+  <li><strong>AEO — Direct Answer Block:</strong> Missing. The first 40–60 words must directly answer: "What is A/B testing for display banner ads and how do you do it?" Add a bold introductory paragraph before any other content.</li>
+  <li><strong>AEO — Featured snippet candidate:</strong> The "Display Banner Ads Elements to Test" section (7 numbered items) is well-structured for a list snippet. Keep this format; tighten the individual descriptions.</li>
+  <li><strong>AEO — FAQ schema:</strong> FAQ section exists but answers are too brief for schema eligibility. Expand each answer to 3–5 substantive sentences.</li>
+  <li><strong>Internal links:</strong> Well-linked to Predis product pages. The related posts section contains 6 relevant articles. No issues.</li>
+</ul>
+
+<h2>Image Audit</h2>
+<table>
+  <tr><th>Image</th><th>Current alt text</th><th>Issue</th><th>Recommended alt text</th></tr>
+  <tr>
+    <td>Hero image (SVG placeholder)</td>
+    <td>"A/B testing for display banner ads"</td>
+    <td>Acceptable but generic. No keyword variation.</td>
+    <td>"A/B testing display banner ads — comparing two ad variants side by side"</td>
+  </tr>
+  <tr>
+    <td>Element testing diagram (SVG)</td>
+    <td>"KEY ELEMENT TO AB TEST IN DISPLAY BANNER ADS"</td>
+    <td>All-caps, reads as a label not an alt description. Exceeds natural phrasing.</td>
+    <td>"Seven key elements to A/B test in display banner ads: headline, image, CTA, colors, copy, layout, and audience"</td>
+  </tr>
+  <tr>
+    <td>Banner ad example 1 (SVG)</td>
+    <td>"AB Testing banner ad copy example"</td>
+    <td>Missing hyphen in "A/B"; vague — which example, what is shown?</td>
+    <td>"A/B test example: headline variant A vs B for a display banner ad"</td>
+  </tr>
+  <tr>
+    <td>Banner ad example 2 (SVG)</td>
+    <td>"AB Testing banner ad copy example"</td>
+    <td>Identical alt text to example 1 — duplicate alt text on different images.</td>
+    <td>"A/B test example: CTA button color variant for a display banner ad"</td>
+  </tr>
+  <tr>
+    <td>CTA banner 1 (SVG)</td>
+    <td>"Revamp Your Display Ads"</td>
+    <td>Marketing headline used as alt text — describes the CTA intent, not the image content.</td>
+    <td>"Predis.ai ad creative generator — create display ad variants for A/B testing" (or role="presentation" if purely decorative)</td>
+  </tr>
+  <tr>
+    <td>CTA banner 2 (SVG)</td>
+    <td>"Supercharge Your Banner Ads"</td>
+    <td>Same issue — CTA copy used as alt text.</td>
+    <td>"Predis.ai — generate and test banner ad variants with AI" (or role="presentation" if purely decorative)</td>
+  </tr>
+</table>
+
+<h2>Backlink Audit</h2>
+<table>
+  <tr><th>URL / Domain</th><th>Issue</th><th>Action</th></tr>
+  <tr>
+    <td>developers.google.com/google-ads</td>
+    <td>None — authoritative</td>
+    <td>Keep</td>
+  </tr>
+  <tr>
+    <td>en-gb.facebook.com/business/tools/ads-manager</td>
+    <td>None — authoritative</td>
+    <td>Keep</td>
+  </tr>
+  <tr>
+    <td>hotjar.com</td>
+    <td>None — authoritative, relevant</td>
+    <td>Keep</td>
+  </tr>
+  <tr>
+    <td>atlassian.com/data/charts/heatmap-complete-guide</td>
+    <td>Legitimate but tangential — Atlassian is primarily a dev tools company; not the most authoritative source for heatmap explanations in an advertising context</td>
+    <td>Replace with hotjar.com/heatmaps or contentsquare.com for a more contextually relevant source</td>
+  </tr>
+  <tr>
+    <td>kdnuggets.com/hypothesis-testing-and-ab-testing</td>
+    <td>Data science-oriented; slightly academic for this audience</td>
+    <td>Keep — acceptable authority level for the hypothesis section</td>
+  </tr>
+  <tr>
+    <td>cxl.com/blog/ab-testing-tools/</td>
+    <td>None — highly authoritative CRO source</td>
+    <td>Keep</td>
+  </tr>
+  <tr>
+    <td>survicate.com/blog/website-exit-survey/</td>
+    <td>Mid-authority; relevant to the Turum-Burum case study context</td>
+    <td>Keep</td>
+  </tr>
+</table>
+<p>No toxic, spammy, penalised, or competitor domains detected. All external links are either internal Predis pages or legitimate third-party sources.</p>
+
+<h2>Structured Data Recommendation</h2>
+<p>Add <strong>two schema types</strong> to this post:</p>
+<ul>
+  <li><strong>FAQ schema</strong> — the post already has a FAQs section with 5 questions. Once answers are expanded (see High-Priority Improvements), implement FAQ schema to qualify for Google FAQ rich results.</li>
+  <li><strong>HowTo schema</strong> — the "How to Conduct an Effective A/B Test" section follows a clear numbered step structure (8 steps). Implement HowTo schema to qualify for step-by-step rich results in Google Search.</li>
+</ul>
+<p>Ask the WordPress developer or SEO plugin owner to implement both. In Yoast, FAQ blocks generate FAQ schema automatically. HowTo schema may need manual implementation or a plugin.</p>
+
+<h2>Items Requiring Manual Review</h2>
+<ul>
+  <li><strong>[UNVERIFIED STAT]</strong> "potential to boost ROI by up to 30%" — source not cited in the original post. Either find and cite the original study, replace with the Creatopy case study's verified 25% CTR increase, or remove the claim.</li>
+  <li><strong>[LINK CHECK]</strong> The FAQ section mentions Google Optimize, Optimizely, and Adobe Target without linking to them. After replacing Google Optimize with current tools, confirm all tool links are working and point to current product pages.</li>
+  <li><strong>[SCHEMA IMPLEMENTATION]</strong> FAQ schema and HowTo schema need developer or SEO plugin implementation in WordPress — cannot be done in the content editor alone.</li>
+  <li><strong>[META DESCRIPTION]</strong> Confirm whether a meta description exists in Yoast/RankMath. WebFetch could not retrieve it from the page source. If missing, use the recommended 154-character version above.</li>
+</ul>
+
+<h2>Audit Summary</h2>
+<table>
+  <tr><th>Dimension</th><th>Issues found</th><th>Count</th></tr>
+  <tr><td>Freshness</td><td>Google Optimize discontinued (Sep 2023); Bannersnack renamed to Creatopy (Feb 2021); no last-updated date shown; 17 months old</td><td>3</td></tr>
+  <tr><td>Brand voice</td><td>FILLER opener, PASSIVE x2, THIRD PERSON x2, EM DASH x1, PROCESS-FIRST x1</td><td>7</td></tr>
+  <tr><td>SEO / AEO</td><td>Weak title; missing Direct Answer Block; no Quick Answer table; no ToC; FAQ answers too brief for schema; meta description unconfirmed</td><td>6</td></tr>
+  <tr><td>CORE-EEAT</td><td>58/100 — E dimension lowest (39/100) due to no Predis integration, no brand-specific examples; T dimension (50/100) due to factual errors and filler</td><td>Score: 58</td></tr>
+  <tr><td>Images</td><td>Duplicate alt text; all-caps alt text; CTA copy used as alt text on 2 banners</td><td>4</td></tr>
+  <tr><td>Backlinks</td><td>All links clean; 1 link (Atlassian heatmap article) could be swapped for a more contextually authoritative source</td><td>1</td></tr>
+  <tr><td>Accuracy</td><td>Google Optimize recommended — discontinued Sep 30 2023; Bannersnack — rebranded to Creatopy Feb 2021; 30% ROI stat uncited</td><td>3</td></tr>
+</table>
+
+</body>
+</html>
